@@ -1,0 +1,1926 @@
+					/*ABOUT HTML PAGE*/
+
+
+.background {
+    padding:  10px;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(file:///D:/Melanated++/Rising%20Sunshine2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; 
+}
+
+
+.Title {
+    font-family:brush script mt;
+    font-style:italic;
+    font-stretch:extra-expanded;
+    animation-direction: alternate-reverse;
+    transition:linear; 
+    
+}
+
+
+.paraC  {
+    padding: 10px; 
+    font-size: 36px;
+    text-align: center;
+    font-family:brush script mt;
+    font-style:italic;
+    font-stretch:extra-expanded;
+
+}
+
+.paraD  {
+    padding: 15px;
+    font-size: 36px;
+    text-align: center;
+    font-family:brush script mt;
+    font-style:italic;
+    font-stretch:extra-expanded;
+
+}
+
+.paraE {
+    padding-left: 30px;
+    margin: 0;
+    font-size: 36px;
+    font-family:brush script mt;
+    font-style:italic;
+    font-stretch:extra-expanded;
+    
+}
+
+ul {
+    padding-left: 30px;
+    
+}
+
+ul li {
+    text-indent: 75px;
+    font-size: 36px;
+    font-family:brush script mt;
+    font-style:italic;
+    list-style: none;
+    font-stretch:extra-expanded;
+    
+}
+  
+
+.rule1 {
+    border-width:thick;
+    border-style:double;
+}
+
+.grid-3 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:  400px 400px 400px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-gap: 20px;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 0px;
+
+
+}
+
+
+.para1{
+    color: white;
+    background-color: DarkGray;
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+    text-align: right;
+    font-size: 36px;
+    padding: 8px;
+        
+}
+
+.pic1{
+    background-color: blue;
+    background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    grid-row-start: span 2;
+    grid-column-start: span 1;
+}
+
+.para2{
+    color: white;
+    background-color: Silver;
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+    text-align: right;
+    font-size: 36px;
+    padding: 8px;
+     
+}
+
+.pic2{
+    background-color: gray;
+    background-image: url(file:///D:/Melanated++/female%20on%20bike.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row-start: span 2;
+    grid-column-start: span 1;
+    
+}
+
+.para3{
+    color: white;
+    background-color: DimGrey;
+    grid-row-start: span 1;
+    grid-column-start: span 1.5;
+    font-size: 36px;
+    padding: 8px;
+    
+}
+
+span {
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite;
+    alternate;
+}
+
+@keyframes animate {
+    from{
+        text-shadow: 0 0 20px #dee74e;
+    }
+    to{
+        text-shadow: 0 0 30px #dee74e,
+                    0 0 10px #dee74e;
+    }
+}
+
+.pic3 {
+    background-color: brown;
+    background-image: url(file:///D:/Melanated++/diamond%20ring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row-start: span 1;
+    grid-column-start: span 1.5;
+}
+
+
+.para4{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: DimGrey;
+    grid-row-start: span 1;
+    grid-column-start: span 1.5;
+    font-size: 36px;
+    padding: 8px;
+}
+
+
+.rule2 {
+    border-width:thick;
+    border-style:double;
+    margin-top: 20px;
+    }
+
+.MENU2 {
+
+  /*display: block;*/
+  /*float: right;*/
+  /*position: relative;*/
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  font-size: 26px;
+  border: 5px solid;
+  border-color: pink;
+  border-width: 3px;
+  border-radius: 10px 100px / 120px;
+}
+
+.dropdown2 {
+  float: right;
+  margin-right: 150px;
+  position: relative;
+    
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    opacity: 0.5;
+    min-width: 200px;
+    padding-right: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    z-index: 3;
+    
+  }
+
+  .dropdown-content2 ul li {
+    list-style: none;
+
+  }
+
+  .dropdown-content2 ul li a {
+    display: block;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 130%;
+    padding: 8px;
+    margin-left: -45px;
+    text-decoration: none;
+    
+  }
+
+  
+  .dropdown-content2 a:hover {
+    text-transform: uppercase;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 275px;
+    margin-left: -40px;
+    
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+
+  }
+
+  ul li:hover ul {
+    display: block;
+    
+  }
+
+@media (min-width: 1200px) {
+
+	.paraC {
+	  margin-top: 180px;
+	}
+}
+
+  @media (max-width: 768px) {
+
+.background {
+    padding:  10px;
+    height: 60vh;
+    max-width: 100%;
+    background-image: url(file:///D:/Melanated++/Rising%20Sunshine2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    color: white; 
+}
+
+
+.paraC {
+     margin-top: 120px;
+     margin-bottom: 10px;
+     /*padding: 10px;8*/
+    font-size:  26px;
+    font-weight: bold;
+    
+
+    }
+
+.paraD  {
+    margin-top: 10px;
+    /*padding: 10px;*/
+    font-size:  26px;
+    font-weight: bold;
+    
+    }
+
+.paraE  {
+        margin-top: -55px;
+        /*padding-left: 10px;*/
+        font-size:  26px;
+        font-weight: bold;
+        
+
+    }
+
+    ul li {
+        font-size:  20px;
+        font-weight: bold;
+        padding: 0px;
+        text-indent:  20px;
+        /*line-height: .9;*/
+    }
+
+    
+.grid-3 {
+    display: grid;
+    grid-template-columns:  350px 350px;
+
+  }
+
+.para1{
+    grid-row-start: span 2;
+    grid-column-start: span 1;
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 25px;
+    margin-left: 10px;
+
+    }
+
+.pic1{
+    background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);
+    grid-row-start: span 2;
+    grid-column-start: span 1;
+    margin-right:  10px;
+    /*max-width: 90%;
+    /*height: 75vh;*/
+
+
+    }
+
+.para2{
+    grid-row-start: span 2;
+    grid-column-start: span 1;
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 45px;
+     
+}
+
+.pic2{
+    grid-row-start: span 2;
+    grid-column-start: span 1;
+    margin-left: 10px;
+
+
+    }
+
+.para3 {
+    margin: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    }
+
+.pic3 {
+    margin: 10px;
+    }
+
+.para4{
+    grid-row-start: span 1;
+    grid-column-start: span 2;
+    margin: 10px;
+    font-size: 32px;
+    
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+
+.background {
+    padding:  5px;
+    height: 75vh;
+    max-width: 100%;
+    background-image: url(file:///D:/Melanated++/Rising%20Sunshine2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white; 
+}
+
+.paraC {
+     margin-top: 100px;
+     margin-bottom: 5px;
+    font-size:  22px;
+    font-weight: normal;
+ 
+    }
+
+.paraD  {
+    margin-top: 5px;
+    font-size:  22px;
+    font-weight: normal;
+    
+    }
+
+    .paraE  {
+        margin-top: -35px;
+        font-size:  22px;
+        font-weight: normal;
+       
+    }
+
+    .featurelist li {
+        font-size:  16px;
+        font-weight: normal;
+        padding: 0px;
+        text-indent: 8px;
+        line-height: 1.0;
+    }
+
+.grid-3 {
+    display: grid;
+    grid-template-columns:  260px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+
+  }
+
+.para1{
+    grid-row-start: span 1;
+    grid-column-start: span 2;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    /*padding-top: 25px;*/
+    margin-right: 10px;
+    /*margin-left: 10px;*/
+
+    }
+
+.pic1{
+    background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);
+    grid-row-start: span 1;
+    grid-column-start: span 2;
+    margin:  10px;
+    /*max-width: 90%;
+    /*height: 75vh;*/
+
+
+    }
+
+.para2{
+    grid-row-start: span 1;
+    grid-column-start: span 1;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+         
+}
+
+.pic2{
+    grid-row-start: span 1;
+    grid-column-start: span 1;
+    margin-left: 10px;
+
+
+    }
+
+.para3 {
+    grid-row-start: span 1;
+    grid-column-start: span 2;
+    margin: 5px 10px;
+    padding: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    }
+
+.pic3 {
+    grid-row-start: span 16;
+    grid-column-start: span 2;
+    margin: 5px 10px;
+    background-position: right;    
+
+    }
+
+.para4{
+    grid-row-start: span 1;
+    grid-column-start: span 2;
+    margin: 5px 10px;
+    padding: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: .8;
+    
+    }
+
+
+}
+
+				/*BLOG/ARTICLE HTML PAGE*/
+
+.BlogTitle {
+    font-family:brush script mt;
+    font-style:italic;
+    font-stretch:extra-expanded;
+	text-align: center;
+    /*margin-left: 100px;*/
+}
+
+.Construct {
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	padding-left: 2em; 
+	
+}
+    
+.rule3 {
+    border-width:thick;
+    border-style:double;
+    margin-top: 50px;
+}
+
+.grid-4 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:  400px 400px 400px;
+    grid-template-rows: repeat(14, 200px);
+    grid-gap: 20px;
+    background-color: Gainsboro;
+    padding: 0px;
+    margin: 50px;
+    position: relative;
+    
+}
+
+.ArticleTitle {
+    color: white;
+    background-color: DimGray;
+    grid-row: 1 / 1;
+    grid-column:  1 / 3;
+    text-align: right;
+    font-size: 32px;
+    padding: 15px;
+    filter: blur(5px);
+        
+}
+
+.pic4{
+    border-radius: 100px;
+    background-image: autofit;
+    background-image: url(file:///D:/Melanated++/Skin%20Care.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    grid-row: 1 / 3;
+    grid-column: 3 / 3;
+    z-index: 1;
+}
+
+.ArticleSection1 {
+    background-color: WhiteSmoke;
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    text-align: justify;
+    font-size: 19px;
+    padding: 12px;
+    font-weight: bold;
+    filter: blur(5px);
+        
+}
+
+.ArticleSection2 {
+    background-color: WhiteSmoke;
+    grid-row: 3 / 8;
+    grid-column: 1 / 4;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px;
+    font-weight: bold;
+    filter: blur(5px);
+    
+       
+}
+
+.Link {
+    font-size: 16px;
+
+}
+
+a:Link {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+
+.RateSection {
+    grid-row: 8 / 9;
+    grid-column: 2 / 3;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin-top: 30px;
+    background-color: LightGray;
+    border-radius: 20px;
+    box-shadow: 12px 12px 24px slategray,
+              -12px -12px 24px DimGrey;
+    border-style: double;
+    font-weight: bolder;
+    overflow: hidden;
+        
+}
+
+.Evaluate {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+.like, .dislike{
+  display: inline-flex;
+  place-items: center;
+  margin-left: 130px;
+  padding:  8px;
+}
+
+ .icon {
+  margin-top: 0px;
+  padding-top: 5px;
+  font-size: 40px;
+  color: indianred;
+  cursor: pointer;
+  text-shadow: 5px 8px 15px darkred;
+  transition: .5s;
+
+  
+}
+
+ .icon:hover {
+  color: crimson;
+  transform: scale(1.3);
+
+}
+
+input {
+  margin-top: 12px;
+  margin-left: 10px;
+  /*justify-items: left;
+  place-items: left;*/
+  border: none;
+  outline: none;
+  width: 30%;
+  text-align: center;
+  background: none;
+  font-size: 20px;
+  font-weight: bolder;
+  pointer-events: none;
+  }
+
+  /* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*Chrome, safari, edge, opera*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.DiscussionForum {
+    position: relative;
+    color: DarkOrange;
+    text-shadow: 2px 2px 4px #000000; 
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 36px;
+    grid-row: 10 / 11; 
+    grid-column: 1 / 2;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: transparent;
+    z-index: 2; 
+    
+ }
+ 
+ .DiscussionForum::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 8px;
+    width: 100%;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    
+ }
+ 
+ .DiscussionForum::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 100%;
+    border-top: 8px solid transparent;
+    border-right: 8px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    
+ }
+ 
+ .DiscussionForum:hover::before {
+    border-color: DarkOrange;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+ }
+ 
+ .DiscussionForum:hover::after {
+    border-color: DarkOrange;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+ }
+  
+.SignUp {
+    color: orangered;
+    text-decoration: none;
+    grid-row: 11 / 12;
+    grid-column: 1 / 2;
+    text-shadow: 2px 2px 4px #000000; 
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 44px;
+
+  }
+
+.SignUp a {
+    text-decoration: none;
+}
+
+  .Login {
+    color: black;
+    font-weight: bolder;
+  }
+
+.pic5{
+    background-image: url(file:///D:/Melanated++/girlgroup2.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 9 / 12;
+    grid-column: 2 / 4;
+        
+}
+
+.ForumTitle {
+    background-color: WhiteSmoke;
+    grid-row: 12 / 14;
+    grid-column: 1 / 4;
+    text-align:center;
+    font-size: 26px;
+    padding: 15px;
+    
+
+}
+
+.ForumSectionImage {
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+    background-image: auto-fit;
+    background-image: url(file:///D:/Melanated++/laptop2.jpg);
+    overflow: hidden;
+    background-size: 1240px 400px;
+    background-position:cover;
+    background-repeat: no-repeat;
+    grid-row: 12 / 14;
+    grid-column: 1 / 4;
+    border-radius: 5px;
+    border-style: double;
+    border-width: thick;
+        
+}
+
+.ForumTitle {
+  background-color: rgba(255,230, 230, 0.4); 
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+	.BlogTitle {
+	   font-size: 38px;
+		}
+}
+
+@media (max-width: 768px) {
+
+.grid-4 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:  350px 350px;
+    grid-template-rows: repeat(16, 200px);
+    grid-gap: 10px;
+    margin: 5px;
+    padding: 10px;
+   
+    }
+
+.ArticleTitle {
+    text-align: left;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.ArticleSection1 {
+    background-color: WhiteSmoke;
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+    text-align: justify;
+    font-size: 24px;
+    /*margin: 70px;
+    padding: 10px;*/
+    margin-top: 60px;
+    padding: 15px;
+    /*font-weight: bold;*/
+        
+    }
+
+.ArticleSection2 {
+    background-color: WhiteSmoke;
+    grid-row: 4 / 11;
+    grid-column: 1 / 3;
+    font-size: 18px;
+    margin-top: -10px;
+    padding: 10px;
+    }
+
+.RateSection {
+    grid-row: 11 / 13;
+    grid-column: 1 / 3;
+    margin:  20px;
+    align-self: center;
+    justify-self: center;
+    margin: 150px;
+
+    }
+
+.DiscussionForum {
+    grid-row: 13 / 15;
+    grid-column: 1 / 2;
+    font-size: 28px;
+    margin-left: 30px;
+    padding: 2px;
+}
+
+.pic5 {
+    grid-row: 13 / 15;
+    grid-column: 2 / 3;
+    background-size: cover;
+}
+
+.SignUp {
+	grid-row: 14 / 15;
+	grid-column: 1 / 2;
+	font-size: 26px;
+}
+
+.ForumTitle {
+    grid-row:  15 / 17;
+    grid-column: 1 / 3;
+    font-size: 20px;
+    /*margin: 50px;*/
+
+}
+
+.ForumSectionImage {
+    grid-row:  15 / 17;
+    grid-column: 1 / 3;
+    margin: 30px;
+    background-image: cover;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+.grid-4 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:  425px;
+    grid-template-rows: repeat(18, 200px);
+    grid-gap: 10px;
+    margin: 0px;
+    /*background-color: blueviolet;*/
+
+    }
+
+.ArticleTitle {
+    text-align: left;
+    justify-content: left;
+    font-size: 26px;
+    margin: 20px;
+    /*margin-top: 40px;
+    margin-left: 16px;*/
+    grid-row: 1 / 3;
+    padding: 10px;
+   
+    }
+
+.ArticleSection1 {
+    font-size: 18px;
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+    margin-left: 16px;
+    padding: 12px
+
+    }
+
+.ArticleSection2 {
+    font-size: 16px;
+    grid-column: 1 / 1;
+    grid-row: 4 / 13;
+    margin-top: 10px;
+    margin-left: 16px;
+    padding: 12px;
+    }
+
+.RateSection {
+    grid-column: 1 / 2;
+    grid-row: 13 / 13;
+    margin: 20px;
+    /*margin-top: 10px;
+    margin-left: 26px;*/
+    }
+
+.like, .dislike{
+  display: inline-flex;
+  place-items: center;
+  justify-items: center;
+  align-items: center;
+  margin: 2px;
+  padding:  4px;
+  margin-left: 110px;
+}
+
+    
+.pic5 {
+    grid-column: 1 / 1;
+    grid-row: 14 / 16;
+    margin-left: 16px;
+    
+}
+
+
+.DiscussionForum {
+    grid-column: 1 / 1;
+    grid-row: 16 / 17;
+    font-size: 32px;
+    margin: 20px;
+
+}
+
+.ForumTitle {
+    grid-column:  1 / 1;
+    grid-row: 17 / 19;
+    font-size: 12px;
+
+}
+
+
+.ForumSectionImage {
+    grid-column: 1 / 1;
+    grid-row: 17 / 19;
+    background-position: center;
+    background-image: cover;
+    margin: 25px 20px;
+    margin-right: 0px;
+    
+	}
+
+}
+
+					/*BEAUTY PIC FEATURE HTML PAGE*/
+
+.grid-5 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /*margin: auto;*/
+    grid-template-columns:  repeat(4, 1fr);
+    grid-auto-rows: minmax(150px, auto); 
+    grid-gap: 40px;
+    background-color: Gainsboro;
+    padding: 40px;
+    margin: 50px;
+    /*margin: 0 auto;*/
+    
+}
+
+.rule5 {
+    border-width:thick;
+    border-style:double;
+    margin-top: 50px;
+}
+
+.FeatureHead {
+    position: relative;
+    animation: FeatureHead;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin-left: 150px;
+}
+
+@keyframes FeatureHead {
+    0% {left: -1000px;}
+    100% {left: 0%;}
+}
+
+ .FeatureLabel {
+    color: white;
+    text-shadow: 2px 2px 4px LightCoral;
+    background-color: none;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    text-align: right;
+    font-size: 36px;
+    padding: 8px;
+    position: relative;
+    animation: FeatureLabel;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes FeatureLabel {
+    0% {right: -1000px;}
+    100% {right: 0%;}
+}
+
+
+
+ .FeaturePic {
+    background-color: gray;
+    grid-row: 2 / 8; 
+    grid-column: 2 / 4; 
+    background-image: url(file:///D:/Melanated++/GlamourRegina.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 40px solid darkgray;
+    grid-row: 2 / 8;
+    grid-column: 2 / 4;
+    z-index: 1;
+    opacity: 0;
+    animation-name: FeaturePic;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes FeaturePic {
+  0%  {opacity: 0}
+100%  {opacity: 1}
+}
+
+ .FeatureBio1 {
+    color: white;
+    font-size: 24px;
+    background-color: LightCoral;
+    grid-row: 8 / 10;
+    grid-column: 1 / 3;
+    padding: 10px;
+    border: double 4px;
+
+}
+
+ .FeatureBio2 {
+    color: white;
+    font-size: 24px; 
+    background-color: LightCoral;
+    grid-row: 8 / 10;
+    grid-column: 3 / 5;
+    padding: 10px;
+    border: double 4px;
+     
+}
+
+.FeatureQuote {
+    color: white;
+    background-color: none;
+    text-align: left;
+    text-shadow: 4px 4px 6px DimGrey; 
+    grid-row: 10 / 12;
+    grid-column:  2 / 5;
+    font-size: 40px;
+    font-style: italic;
+    padding: 12px;
+
+}
+
+@media (max-width: 768px) {
+
+.grid-5 {
+    grid-template-columns:  repeat(4, 1fr);
+    grid-auto-rows: minmax(150px, auto); 
+    grid-gap: 20px;
+    background-color: gainsboro;
+    padding: 30px;
+    margin: 15px;
+    /*margin: 0 auto;*/
+    
+    }
+
+.FeatureHead {
+    font-size: 21px;
+    } 
+
+.FeatureLabel {
+    font-size: 26px;
+    }
+
+.FeaturePic {
+    grid-column: 1 / 5;
+    }
+
+.dropdown2 {
+    margin-left: 0px;
+    margin-right: 75px;
+    /*margin-right: -2px;*/
+    }
+
+
+.MENU2 {
+  margin-top: 5px;
+  /*margin-right: 45px;*/
+  margin-left: 250px;
+  margin-right: -28px;
+  font-size: 16px;
+      }
+
+}
+
+@media (max-width: 480px) {
+
+.grid-5 {
+    grid-template-columns:  repeat(1, 1fr);
+    grid-row: repeat(1, 200px);
+    /*grid-auto-rows: minmax(150px, auto); */
+    grid-gap: 10px;
+    background-color: gainsboro;
+    padding: 12px;
+    margin: 12px;
+    /*margin: 0 auto;*/
+    
+    }
+
+.FeatureHead {
+    margin-top: 25px;
+    margin-left: 0px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: left;
+    /*justify-content: left;*/
+    
+    } 
+
+.FeatureLabel {
+    font-size: 20px;
+    text-align: left;
+    }
+
+.FeaturePic {
+    grid-column: 1 / 2;
+    grid-row: 2 / 7;
+    border: 20px solid darkgray;
+    margin-left: 15px;
+    
+}
+
+.FeatureBio1 {
+    font-size: 18px;
+    grid-row: 7 / 9;
+    grid-column: 1 / 2;
+    margin-left: 10px;
+    
+    }
+
+ .FeatureBio2 {
+    font-size: 18px; 
+    grid-row: 9 / 11;
+    grid-column: 1 / 2;
+    margin-left: 10px;
+    
+     
+    }
+
+.FeatureQuote {
+    font-size: 24px;
+    grid-row: 11 / 12;
+    grid-column:  1 / 2;
+    
+
+    }
+
+}
+
+						/*MEMBER/USER LOGIN HTML PAGE*/
+
+.LoginTitle {
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    color: darkgrey;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.LoginTitle2{
+    text-align: center;
+    font-style:  italic;
+    color: darkgrey;
+    font-family: 'Lobster', cursive;
+    margin-top: -25px;
+
+}
+
+.username {
+    text-align: left;
+    justify-content: left;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.password {
+    text-align: left;
+    justify-content: left;
+    margin-left: 30px;
+
+}
+
+ 
+.loginpg {
+    width: 650px;
+    height: 675px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    /*line-height: .9;*/
+    border-radius: 8%;
+    border: solid;
+    border-width: 15px;
+    border-color: mistyrose;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left;
+    justify-content: left;
+    /*margin-top: 5%;*/
+    margin-left: 30%;
+    padding: 0;
+
+}
+
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 12px 10px;
+  margin: 0px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline: solid;
+  outline-width: 6px;
+  outline-color: rosybrown;
+  cursor: pointer;
+  pointer-events: visible;
+
+}
+
+#UN{
+    text-align: left;
+    justify-content: left;
+    margin-top: -45px;
+    
+            
+}
+
+#pwd {
+    text-align: left;
+    justify-content: left;
+    margin-top: -45px;
+    
+}
+
+  .LoginForm {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    /*line-height:  .8;*/
+    
+}
+
+
+button {
+  width: 90%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top:   60px;
+  padding: 15px;
+  border-radius: 2px;
+  outline: none;
+  outline-width: 6px;
+  font-size: 25px;
+  color: white;
+  background-color: rosybrown;
+  cursor: pointer;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+  input[type=checkbox] {
+    border: none;
+    outline: none;
+    outline-color: none;
+    display: flex;
+    /*float:  left;*/
+    margin-left: 28px;
+    margin-top: 30px;
+    width: 5%;
+
+}
+
+.Remember {
+    float: left;
+    /*margin-left: -75px;*/
+    margin-top: -19px;
+    /*justify-content: left;
+    justify-self: left;
+    justify-items: left;*/
+    margin-left: 60px;
+    font-size: 18px;
+
+
+}
+
+.ForgotPwd {
+    text-align: right;
+    /*justify-content: right;
+    justify-self:   right;
+    justify-items:  right;*/
+    padding: 0px;
+    margin: -12px 42px;
+    font-size: 18px;
+
+}
+
+a {
+    color: darkgrey;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Construct {
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	padding-left: 2em; 
+	
+}
+
+
+@media (min-width: 1200px) {
+
+	.loginpg {
+	  margin-top: 8%;
+		}
+
+	.MENU2 {
+          margin-top: 5px;
+          /*margin-right: 45px;*/
+          margin-left: 50px;
+          /*margin-right: -20px;*/
+          
+      }
+
+}
+
+@media (max-width: 768px) {
+
+    .loginpg {
+        width: 550px;
+        height: 575px;
+        margin-top: 12%;
+        margin-left: 8%;
+        font-size: 20px;
+        
+        }
+
+    .MENU2 {
+          margin-top: 5px;
+          /*margin-right: 45px;*/
+          margin-left: 250px;
+          margin-right: -20px;
+          font-size: 8px;
+      }
+
+    }
+
+@media (max-width: 480px) {
+
+    .loginpg {
+        width: 350px;
+        height: 450px;
+        font-size: 15px;
+        margin-top: 15%;
+        margin-left: 3%;
+        
+        }
+
+    input[type=text], input[type=password] {
+        width: 75%;
+        padding: 6px 10px;
+        margin: 5px 0;
+
+    }
+
+    #UN {
+        font-size: 15px;
+    }
+
+    #pwd { 
+    font-size: 15px;
+
+    }
+
+    .username {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .password {
+        margin-left: 50px;
+    }
+
+    button {
+      width: 75%;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+
+      input[type=checkbox] {
+        margin-left: 38px;
+        width: 3%;
+    }
+
+    .Remember {
+      margin-left: 56px;
+       font-size: 12px;
+   }
+
+    .ForgotPwd {
+        font-size: 12px;
+        /*margin-left: 50px;*/
+        text-align: right;
+        /*justify-content: left;*/
+        margin-right: 20px;
+        margin-top: -16px;
+     }
+
+     .dropdown-content2 {
+        min-width: 40px;
+     }
+
+}
+
+						/*SUBSCRIPTION HTML PAGE*/
+
+.MemberPg {
+        font-size: 45px;
+        font-family: fantasy;
+        font-weight: bolder;
+        margin-left: 540px;
+        text-shadow: 2px 2px 5px lightpink;
+        text-decoration: underline;
+        position: relative;
+        animation: MemberPg;
+        animation-duration: 3s;
+}
+
+@keyframes MemberPg {
+    from {top: -450px}
+    to {top: 75px} 
+
+     }
+
+
+.grid-6 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:  400px 400px 400px;
+    grid-template-rows: 200px 200px 200px 200px 200px 100px; 
+    grid-gap: 10px;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+.MemberBenefits {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    font-size: 18px;
+    font-weight: bolder;
+    color: DimGray;
+    /*padding: 15px;*/
+    margin-top: 15px;
+    line-height: .5cm;
+
+}
+
+.RegRates  {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    margin-top: 60px;
+    font-style: italic;
+}
+
+.Monthly {
+    grid-row: 3;
+    grid-column: 1 / 1;
+    border: solid;
+    border-color: mistyrose;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.Quarterly {
+    grid-row: 3;
+    grid-column: 2 / 2;
+    border: solid;
+    border-color: mistyrose;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.Annual {
+    grid-row: 3;
+    grid-column: 3 / 3;
+    border: solid;
+    border-color: mistyrose;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.StRates {
+    grid-row: 4;
+    grid-column: 1/ 4;
+    margin-top: 60px;
+    font-style: italic;
+
+}
+
+
+.StQuarterly {
+    grid-row: 5;
+    grid-column: 1 / 1;
+    border: solid;
+    border-color: mistyrose;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.StBi-Annual {
+    grid-row: 5;
+    grid-column: 2 / 2;
+    border: solid;
+    border-color: mistyrose;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.StAnnual {
+    grid-row: 5;
+    grid-column: 3 / 3;
+    border: solid;
+    border-color: mistyrose;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.btn2 {
+    background-color: mistyrose;
+    color: darkgrey;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rosybrown;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 25%;
+    padding: 8px;
+    margin-top: -50px;
+    
+}
+
+.btn2:hover {
+    background-color: rosybrown;
+    color:  white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.rule6 {
+    border-width:thick;
+    border-style:double;
+
+}
+
+.background-dark { 
+    background: #696969;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.fa-instagram {
+    color: #ff7300;
+    background-color: transparent;
+}
+
+.fa-facebook {
+    color: #000080;
+    background-color: transparent;
+    
+}
+
+
+.footer:hover {
+    color: none;
+    background-color:none;
+    i: transparent;
+}
+  
+
+.footer p {
+    margin: 0;
+    align-content: center;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+@media (min-width: 1200px) {
+
+	.MemberPg {
+        
+          margin-left: 740px;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+
+    .grid-6 {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 75px;
+        /*background-color: beige;*/
+        padding: 25px;
+        margin: 0px;
+
+    }
+
+    .MemberBenefits {
+        grid-row:  1;
+        grid-column: 1 / 3;
+    }
+
+    .Annual {
+        grid-row: 4;
+        grid-column: 1 / 2;
+    }
+
+    .StRates {
+        grid-row: 5;
+        grid-column: 1 / 4;
+    }
+
+    .StQuarterly {
+        grid-row: 6;
+        grid-column: 1 / 2;
+    }
+
+    .StBi-Annual {
+        grid-row: 6;
+        grid-column: 2 / 3;
+    }
+
+    .StAnnual {
+        grid-row: 7;
+        grid-column: 1 / 2;
+    }
+
+    .MemberPg {
+        font-size: 35px;
+        margin-left: 200px;
+    }
+
+    .MENU2 {
+        margin-top: 5px;
+        margin-left: 40px;
+        /*margin-right: -28px;*/
+        font-size: 16px;
+         border-radius: 10px 75px / 100px;
+}
+
+.dropdown2 {
+  float: right;
+  margin-left: -40px;
+  margin-right: 75px;
+  position: relative;
+    
+}
+
+.dropdown-content2 {
+    min-width: 170px;
+    padding-right: 5px;
+    
+  }
+
+  .dropdown-content2 ul li a {
+    font-size: 14px;
+    width: 95%;
+    padding: 6px;
+    margin-left: 0px;
+       
+  }
+
+  
+  .dropdown-content2 a:hover {
+    margin-left: -5px;
+    
+  }
+  
+    
+}
+
+@media (max-width: 480px) {
+
+    .grid-6 {
+        display: grid;
+        grid-template-columns: 325px;
+        grid-template-rows: repeat(11, 200px);/*200px 200px 200px 200px 200px 200px 200px 200px 200px 75px*/
+        /*background-color: lightgreen;*/
+        padding: 15px;
+        margin: 25px;
+
+    }
+
+    .MemberBenefits {
+        grid-row:  1 / 3;
+        grid-column: 1 / 2;
+        font-size: 18px;
+        margin-top: 45px;
+        margin-right: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        line-height: normal;
+
+    }
+
+    .RegRates {
+        grid-row:  3;
+        grid-column: 1 / 2;
+        
+    }
+
+
+    .Monthly {
+        grid-row:  4;
+        grid-column: 1 / 2;
+    }
+    
+    .Quarterly {
+        grid-row:  5;
+        grid-column: 1 / 2;
+    }
+    
+    .Annual {
+        grid-row: 6;
+        grid-column: 1 / 2;
+    }
+
+    .StRates {
+        grid-row: 7;
+        grid-column: 1 / 2;
+    }
+
+    .StQuarterly {
+        grid-row: 8;
+        grid-column: 1 / 2;
+    }
+
+    .StBi-Annual {
+        grid-row: 9;
+        grid-column: 1 / 2;
+    }
+
+    .StAnnual {
+        grid-row: 10;
+        grid-column: 1 / 2;
+    }
+
+    .MemberPg {
+        font-size: 28px;
+        margin-left: 40px;
+    }
+
+    .MENU2 {
+        margin-top: 0px;
+        margin-left: 40px;
+        font-size: 12px;
+        border-radius: 10px 75px / 100px;
+}
+
+.dropdown2 {
+  float: right;
+  margin-left: -40px;
+  margin-right: 45px;
+  position: relative;
+    
+}
+
+  .dropdown-content2 ul li a {
+    font-size: 12px;
+    width: 95%;
+    padding: 6px;
+    margin-left: 0px;
+       
+  }
+
+}
