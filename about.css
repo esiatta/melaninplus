@@ -278,7 +278,7 @@ span {
     padding:  10px;
     height: 60vh;
     max-width: 100%;
-    background-image: url(file:///D:/Melanated++/Rising%20Sunshine2.jpg);
+    background-image: url(Rising%20Sunshine2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -341,7 +341,7 @@ span {
     }
 
 .pic1{
-    background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);
+    background-image: url(dark%20chocolate.jpg);
     grid-row-start: span 2;
     grid-column-start: span 1;
     margin-right:  10px;
@@ -399,7 +399,7 @@ span {
     padding:  5px;
     height: 75vh;
     max-width: 100%;
-    background-image: url(file:///D:/Melanated++/Rising%20Sunshine2.jpg);
+    background-image: url(Rising%20Sunshine2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -458,7 +458,7 @@ span {
     }
 
 .pic1{
-    background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);
+    background-image: url(dark%20chocolate.jpg);
     grid-row-start: span 1;
     grid-column-start: span 2;
     margin:  10px;
@@ -571,7 +571,7 @@ span {
 .pic4{
     border-radius: 100px;
     background-image: autofit;
-    background-image: url(file:///D:/Melanated++/Skin%20Care.jpg);
+    background-image: url(Skin%20Care.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -784,7 +784,7 @@ input::-webkit-inner-spin-button {
   }
 
 .pic5{
-    background-image: url(file:///D:/Melanated++/girlgroup2.jpeg);
+    background-image: url(girlgroup2.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -808,7 +808,7 @@ input::-webkit-inner-spin-button {
     filter: blur(3px);
   -webkit-filter: blur(3px);
     background-image: auto-fit;
-    background-image: url(file:///D:/Melanated++/laptop2.jpg);
+    background-image: url(laptop2.jpg);
     overflow: hidden;
     background-size: 1240px 400px;
     background-position:cover;
@@ -1095,7 +1095,7 @@ input::-webkit-inner-spin-button {
     background-color: gray;
     grid-row: 2 / 8; 
     grid-column: 2 / 4; 
-    background-image: url(file:///D:/Melanated++/GlamourRegina.JPG);
+    background-image: url(GlamourRegina.JPG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
