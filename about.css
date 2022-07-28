@@ -6,7 +6,7 @@
     height: 100vh;
     max-width: 100%;
     /*background-image: url(file:///D:/Melanated++/Rising%20Sunshine2.jpg);*/
-    background-image: url(Rising Sunshine2.jpg);
+    background-image: url(Rising%20Sunshine2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,8 @@ ul li {
 
 .pic1{
     background-color: blue;
-    background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);
+    /*background-image: url(file:///D:/Melanated++/dark%20chocolate.jpg);*/
+    background-image: url(dark%20chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:right;
@@ -124,7 +125,7 @@ ul li {
 
 .pic2{
     background-color: gray;
-    background-image: url(file:///D:/Melanated++/female%20on%20bike.jpeg);
+    background-image: url(female%20on%20bike.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,7 +162,7 @@ span {
 
 .pic3 {
     background-color: brown;
-    background-image: url(file:///D:/Melanated++/diamond%20ring.jpg);
+    background-image: url(diamond%20ring.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
