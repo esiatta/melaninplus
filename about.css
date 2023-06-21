@@ -519,16 +519,16 @@ span {
 
 				/*BLOG/ARTICLE HTML PAGE*/
 
-/*.BlogTitle {
-	font-size: 7rem;
+.BlogTitle {
+	font-size: 6rem;
     font-family:brush script mt;
     font-style:italic;
     /*font-stretch:extra-expanded;*/
-	text-align: left;
+	text-align: center;
 	text-decoration: underline;
-	background-color: light grey;
+	background-color: light-grey;
     
-}*/
+}
 
 /*.Construct {
 	color: red;
