@@ -520,11 +520,12 @@ span {
 				/*BLOG/ARTICLE HTML PAGE*/
 
 .BlogTitle {
-	font-size: 2rem;
+	font-size: 4rem;
     font-family:brush script mt;
     font-style:italic;
     font-stretch:extra-expanded;
 	text-align: center;
+	text-decoration: underline;
     /*margin-left: 100px;*/
 }
 
