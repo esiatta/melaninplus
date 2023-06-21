@@ -523,11 +523,11 @@ span {
 	font-size: 7rem;
     font-family:brush script mt;
     font-style:italic;
-    font-stretch:extra-expanded;
+    /*font-stretch:extra-expanded;*/
 	text-align: left;
 	text-decoration: underline;
 	background-color: light grey;
-    /*margin-left: 100px;*/
+    
 }
 
 /*.Construct {
@@ -537,13 +537,13 @@ span {
 	text-align: left;
 	padding-left: 2em; 
 	
-}*/
+}
     
 .rule3 {
     border-width:thick;
     border-style:double;
     margin-top: 50px;
-}
+}*/
 
 .grid-4 {
     display: grid;
