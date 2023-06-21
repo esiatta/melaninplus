@@ -520,23 +520,23 @@ span {
 				/*BLOG/ARTICLE HTML PAGE*/
 
 .BlogTitle {
-	font-size: 4rem;
+	font-size: 5rem;
     font-family:brush script mt;
     font-style:italic;
     font-stretch:extra-expanded;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
     /*margin-left: 100px;*/
 }
 
-.Construct {
+/*.Construct {
 	color: red;
 	font-weight: bold;
 	font-size: 30px;
 	text-align: left;
 	padding-left: 2em; 
 	
-}
+}*/
     
 .rule3 {
     border-width:thick;
