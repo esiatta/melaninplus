@@ -520,13 +520,14 @@ span {
 				/*BLOG/ARTICLE HTML PAGE*/
 
 .BlogTitle {
-	font-size: 6rem;
+	font-size: 7rem;
+	font-weight: bold;
     font-family:brush script mt;
     font-style:italic;
     /*font-stretch:extra-expanded;*/
 	text-align: center;
-	text-decoration: underline;
-	background-color: LightGrey;
+	text-decoration: underline overline DaryGrey 1rem;
+	
     
 }
 
