@@ -524,9 +524,9 @@ span {
 	font-weight: bold;
     font-family:brush script mt;
     font-style:italic;
-    /*font-stretch:extra-expanded;*/
+    font-stretch: extra-expanded;
 	text-align: center;
-	text-decoration: underline overline DarkGrey 1rem;
+	text-decoration: underline/*overline DarkGrey 1rem*/;
 	
     
 }
