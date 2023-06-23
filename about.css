@@ -526,7 +526,8 @@ span {
     font-style:italic;
     font-stretch: extra-expanded;
 	text-align: center;
-	text-decoration: underline 2rem/*overline DarkGrey 1rem*/;
+	text-decoration: underline/*overline DarkGrey 1rem*/;
+	text-decoration-thickness: 3rem;
 	
     
 }
