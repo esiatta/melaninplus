@@ -527,7 +527,7 @@ span {
     font-stretch: extra-expanded;
 	text-align: center;
 	text-decoration: underline DarkGrey;
-	/*text-decoration-thickness: 1rem;*/
+	text-decoration-thickness: 1rem;
 	
     
 }
