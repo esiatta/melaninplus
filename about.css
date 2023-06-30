@@ -26,6 +26,7 @@
 
 .paraC  {
     padding: 10px; 
+	margin: -10px;
     font-size: 36px;
     text-align: center;
     font-family:brush script mt;
