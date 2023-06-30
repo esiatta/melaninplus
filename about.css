@@ -37,6 +37,7 @@
 
 .paraD  {
     padding: 15px;
+	margin-top: -10px;
     font-size: 36px;
     text-align: center;
     font-family:brush script mt;
@@ -47,6 +48,7 @@
 
 .paraE {
     padding-left: 30px;
+	margin-top: -10px;
     margin: 0;
     font-size: 36px;
     font-family:brush script mt;
