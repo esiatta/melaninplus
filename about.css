@@ -1306,8 +1306,8 @@ input::-webkit-inner-spin-button {
 
  
 .loginpg {
-    width: 650px;
-    height: 675px;
+    width: 675px;
+    height: 650px;
     display: block;
     position: relative;
     box-sizing: border-box;
