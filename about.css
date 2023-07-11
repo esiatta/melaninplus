@@ -1307,12 +1307,12 @@ input::-webkit-inner-spin-button {
  
 .loginpg {
     width: 675px;
-    height: 650px;
+    height: 575px;
     display: block;
     position: relative;
     box-sizing: border-box;
     /*line-height: .9;*/
-    border-radius: 8%;
+    border-radius: 8px;
     border: solid;
     border-width: 15px;
     border-color: mistyrose;
