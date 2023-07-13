@@ -1322,6 +1322,7 @@ input::-webkit-inner-spin-button {
     justify-content: left;
     margin-top: 2rem;
     margin-left: 30%;
+	margin-botttom: 16px;
     padding: 0;
 
 }
