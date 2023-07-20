@@ -1320,9 +1320,9 @@ input::-webkit-inner-spin-button {
     font-size: 25px;
     text-align: left;
     justify-content: left;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 30%;
-	margin-botttom: 40px;
+	margin-botttom: 4rem;
     padding: 0;
 
 }
