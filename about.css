@@ -1061,18 +1061,21 @@ input::-webkit-inner-spin-button {
     
 }
 
-.rule5 {
+/*.rule5 {
     border-width:thick;
     border-style:double;
     margin-top: 50px;
-}
+}*/
 
 .FeatureHead {
     position: relative;
     animation: FeatureHead;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    margin-left: 150px;
+	text-align: center;
+	text-decoration: underline DarkGrey;
+	text-decoration-thickness: 1.5rem;
+	/*margin-left: 150px;*/
 }
 
 @keyframes FeatureHead {
@@ -1552,7 +1555,8 @@ a {
         margin-left: 540px;
         text-shadow: 2px 2px 5px lightpink;
         text-decoration: underline;
-        position: relative;
+	text-align: center;
+        /*position: relative;*/
         animation: MemberPg;
         animation-duration: 3s;
 }
