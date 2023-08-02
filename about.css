@@ -1556,7 +1556,7 @@ a {
         text-shadow: 2px 2px 5px lightpink;
         text-decoration: underline;
 	text-align: center;
-        /*position: relative;*/
+        position: relative;
         animation: MemberPg;
         animation-duration: 3s;
 }
