@@ -1553,6 +1553,7 @@ a {
         font-family: fantasy;
         font-weight: bolder;
         /*margin-left: 540px;*/
+	margin-left: -250px;
         text-shadow: 2px 2px 5px lightpink;
         text-decoration: underline;
 	/*text-align: center;*/
