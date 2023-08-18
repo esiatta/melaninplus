@@ -14,7 +14,7 @@
     height: 100vh;
     max-width: 100%;
     /*background-image: url(file:\\\C:\Users\ecofe\Pictures\I%20AM\pexels-photo-2476602.jpeg);*/
-    background-size: cover; 
+    background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center;
     margin-bottom: 230px;
