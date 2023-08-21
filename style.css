@@ -17,6 +17,7 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
+    position: center;
     margin-bottom: 230px;
     display: flex;
 }
