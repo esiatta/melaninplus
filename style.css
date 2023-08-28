@@ -3,7 +3,7 @@
     margin: auto;
     background-image: url(pexels-photo-2476602.jpeg);
 	/*background-image: url(file:/D:/Melanated++/pexels-photo-2476602.jpeg);*/
-	  /*height: 50vh;*/
+	  height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 
 .showcase /*::after*/ {
     content:'';
-    height: 100vh;
+    /*height: 100vh;*/
     max-width: 100%;
     /*background-image: url(file:\\\C:\Users\ecofe\Pictures\I%20AM\pexels-photo-2476602.jpeg);*/
 	/*background-position: center;
