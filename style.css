@@ -10,20 +10,6 @@
     font-family: sans-serif;
 }
 
-.showcase /*::after*/ {
-    content:'';
-    height: 100vh;
-    max-width: 100%;
-	margin-bottom: 50px;
-	/*background-image: url(pexels-photo-2476602.jpeg);*/
-	/*background-image: url(file:\\\C:\Users\ecofe\Pictures\I%20AM\pexels-photo-2476602.jpeg);*/
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    display: flex;
-     position: relative;
-}
-
 .MENU {
   background-color: white;
   color: black;
