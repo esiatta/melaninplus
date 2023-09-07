@@ -1,13 +1,18 @@
  body {
-    /*width: 100%;*/
-    margin: auto;
+ 	margin: auto;
 	background-image: url(pexels-photo-2476602.jpeg);
-	
-    /*background-image: url(file:///C:/Users/ecofe/Pictures/I%20AM/pexels-photo-2476602.jpeg);*/
-	 /*max-width: 100%;*/
-	 background-repeat: no-repeat;
-    /*background-size: 100%;*/
+	background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+    /*background-size: 50%;*/
     font-family: sans-serif;
+}
+
+.showcase {
+    content:'';
+    height: 100vh;
+    max-width: 100%;
+	
 }
 
 .MENU {
