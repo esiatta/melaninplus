@@ -1,17 +1,24 @@
  body {
  	margin: auto;
-	background-image: url(pexels-photo-2476602.jpeg);
+	/*background-image: url(pexels-photo-2476602.jpeg);
 	background-repeat: no-repeat;
 	 background-position: center;
 	 background-size: cover;
     background-size: 50%;
-    font-family: sans-serif;
+    font-family: sans-serif;*/
 }
 
 .showcase {
     content:'';
     height: 50vh;
     max-width: 50%;
+	background-image: url(pexels-photo-2476602.jpeg);
+	background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+    background-size: 50%;
+    font-family: sans-serif;
+	
 	
 }
 
