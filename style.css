@@ -4,14 +4,14 @@
 	background-repeat: no-repeat;
 	 background-position: center;
 	 background-size: cover;
-    /*background-size: 50%;*/
+    background-size: 50%;
     font-family: sans-serif;
 }
 
 .showcase {
     content:'';
-    height: 50vh;
-    max-width: 50%;
+    /*height: 50vh;
+    max-width: 50%;*/
 	
 }
 
