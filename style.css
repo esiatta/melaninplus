@@ -11,12 +11,12 @@
 .showcase {
     content:'';
     height: 50vh;
-    max-width: 50%;
+    /*max-width: 50%;*/
 	background-image: url(pexels-photo-2476602.jpeg);
 	background-repeat: no-repeat;
 	 background-position: center;
 	 background-size: cover;
-    background-size: 50%;
+    background-size: 75%;
     font-family: sans-serif;
 	
 	
@@ -92,7 +92,7 @@
 
 
 .affirmations {
-   color: white;
+   color: black;
    font-weight: bolder;
    font-family: Comic Sans MS, cursive, sans-serif;
    font-size: larger;
