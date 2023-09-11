@@ -10,7 +10,7 @@
 
 .showcase {
     content:'';
-    height: 50vh;
+    height: 100vh;
     /*max-width: 50%;*/
 	background-image: url(pexels-photo-2476602.jpeg);
 	background-repeat: no-repeat;
