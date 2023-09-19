@@ -97,12 +97,13 @@
    font-weight: bolder;
    font-family: Comic Sans MS, cursive, sans-serif;
    font-size: larger;
+	position: absolute;
    
    
 }
 
 h2 {
-   position: absolute;
+   /*position: absolute;*/
    top: 450px;
    left: 1000px;
    font: 400 35px/1.3 'Arizonia', Helvetica, sans-serif;
@@ -111,7 +112,7 @@ h2 {
 }
 
 .paraA {
-   position: relative;
+   /*position: relative;*/
    top: 450px;
    left: 1000px;
    font: 400 35px/1.3 'Arizonia', Helvetica, sans-serif;
@@ -133,7 +134,7 @@ h2 {
 }
 
 .paraB {
-   position: relative;
+   /*position: relative;*/
    top: 450px;
    left: 1075px;
    font: 400 35px/1.3 'Arizonia', Helvetica, sans-serif;
@@ -155,7 +156,7 @@ h2 {
 }
 
 .paraC {
-   position: relative;
+   /*position: relative;*/
    top: 450px;
    left: 1075px;
    font: 400 35px/1.3 'Arizonia', Helvetica, sans-serif;
