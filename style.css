@@ -16,7 +16,7 @@
 	background-repeat: no-repeat;
 	 background-position: center;
 	 background-size: cover;
-    background-size: 90%;
+    background-size: 95%;
 	position: relative;
     font-family: sans-serif;
 	
@@ -97,7 +97,7 @@
    font-weight: bolder;
    font-family: Comic Sans MS, cursive, sans-serif;
    font-size: larger;
-	position: absolute;
+	/*position: absolute;*/
    
    
 }
@@ -105,7 +105,7 @@
 h2 {
    position: absolute;
    top: 250px;
-   left: 1000px;
+   left: 800px;
    font: 400 35px/1.3 'Arizonia', Helvetica, sans-serif;
    /*transition-timing-function: ease-in 1s;*/
      
